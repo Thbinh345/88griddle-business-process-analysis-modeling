@@ -4,9 +4,9 @@
 
 ---
 
-## IO-01 — Reduce Invoice Rework
+## 01. Reduce Invoice Rework
 
-**Related Pain Point:** PP-01
+**Related Pain Point:** 01
 
 ### Opportunity
 
@@ -19,15 +19,11 @@ Improve the payment workflow so that the final order information is consolidated
 - Shorten the payment cycle
 - Improve billing accuracy
 
-### Priority
-
-**High**
-
 ---
 
-## IO-02 — Improve Information Consistency Across Order & Payment
+## 02. Improve Information Consistency Across Order & Payment
 
-**Related Pain Points:** PP-02, PP-05
+**Related Pain Points:** 02
 
 ### Opportunity
 
@@ -42,15 +38,11 @@ The restaurant system should act as the central reference point for current tran
 - Reduce dependency on manual handoffs
 - Support faster coordination between functions
 
-### Priority
-
-**High**
-
 ---
 
-## IO-03 — Streamline Additional-Order Handling
+## 03. Streamline Additional-Order Handling
 
-**Related Pain Point:** PP-03
+**Related Pain Point:** 03
 
 ### Opportunity
 
@@ -64,15 +56,11 @@ The process should update the existing order and notify the relevant downstream 
 - Simplify service-to-kitchen coordination
 - Improve handling of additional orders
 
-### Priority
-
-**Medium**
-
 ---
 
-## IO-04 — Standardize Exception Handling
+## 04. Standardize Exception Handling
 
-**Related Pain Point:** PP-04
+**Related Pain Point:** 04
 
 ### Opportunity
 
@@ -97,15 +85,11 @@ Each exception should clearly identify:
 - Make operational responsibilities clearer
 - Support future system requirements
 
-### Priority
-
-**High**
-
 ---
 
-## IO-05 — Strengthen Cash Reconciliation Control
+## 05. Strengthen Cash Reconciliation Control
 
-**Related Pain Point:** PP-02
+**Related Pain Point:** 02
 
 ### Opportunity
 
@@ -119,25 +103,21 @@ Structure the end-of-shift reconciliation process around a clear control sequenc
 - Make discrepancies easier to identify and resolve
 - Clarify accountability during shift closing
 
-### Priority
-
-**High**
-
 ---
 
 ## Improvement Priority Matrix
 
 | Opportunity | Business Value | Process Impact | Priority |
 |---|---|---|---|
-| IO-01 — Reduce Invoice Rework | High | Payment | High |
-| IO-02 — Improve Information Consistency | High | Cross-process | High |
-| IO-03 — Streamline Additional Orders | Medium | Service / Kitchen | Medium |
-| IO-04 — Standardize Exception Handling | High | Cross-process | High |
-| IO-05 — Strengthen Cash Reconciliation | High | Finance / Control | High |
+| 01. Reduce Invoice Rework | High | Payment | High |
+| 02. Improve Information Consistency | High | Cross-process | High |
+| 03. Streamline Additional Orders | Medium | Service / Kitchen | Medium |
+| 04.  Standardize Exception Handling | High | Cross-process | High |
+| 05.  Strengthen Cash Reconciliation | High | Finance / Control | High |
 
 ---
 
-## BA Recommendation
+## Recommendation
 
 For the To-Be modeling phase, **Payment** is selected as the first improvement candidate because it combines:
 
