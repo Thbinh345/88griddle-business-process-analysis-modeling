@@ -1,10 +1,10 @@
-# 88 Griddle — Business Process Analysis & Modeling
+# 88 Griddle - Business Process Analysis & Modeling
 
-> A Business Analysis case study focused on analyzing and modeling the operational processes of 88 Griddle restaurant in Thảo Điền, Ho Chi Minh City.
+> A Business Analysis case study focused on analyzing and modeling the operational processes of 88 Griddle restaurant (Thao Dien, Ho Chi Minh City).
 
 ## Project Overview
 
-This project analyzes the end-to-end operational processes of **88 Griddle**, a restaurant operating in Thảo Điền, Ho Chi Minh City.
+This project analyzes the end-to-end operational processes of **88 Griddle**, a restaurant operating in Thao Dien, Ho Chi Minh City.
 
 The project focuses on translating real-world business operations into structured process models using **BPMN 2.0**, with the objective of making business activities, responsibilities, system interactions, decision points, and process flows easier to understand and analyze.
 
@@ -25,7 +25,7 @@ The analysis covers the restaurant's core operational processes from customer re
 
 ## Business Context
 
-88 Griddle is a restaurant whose daily operations involve multiple stakeholders and interconnected operational processes.
+*88 Griddle* is a restaurant whose daily operations involve multiple stakeholders and interconnected operational processes.
 
 The modeled processes involve interactions among:
 
@@ -47,15 +47,15 @@ Detailed business context and process descriptions are available in [`context/bu
 
 The project covers **7 core operational processes**:
 
-| # | Process | Primary Business Focus |
-|---|---|---|
-| 1 | Reservation | Receiving and processing customer table reservations |
-| 2 | Supplier Receiving | Receiving and checking goods from suppliers |
-| 3 | Kitchen Preparation | Preparing dishes based on received orders |
-| 4 | Customer Service | Taking orders and serving customers |
-| 5 | Delivery | Processing and completing online delivery orders |
-| 6 | Payment | Verifying bills and processing customer payments |
-| 7 | Cash Reconciliation | Checking cash, reconciling revenue, and handing over revenue |
+| Process | Primary Business Focus |
+|---|---|
+| Reservation | Receiving and processing customer table reservations |
+| Supplier Receiving | Receiving and checking goods from suppliers |
+| Kitchen Preparation | Preparing dishes based on received orders |
+| Customer Service | Taking orders and serving customers |
+| Delivery | Processing and completing online delivery orders |
+| Payment | Verifying bills and processing customer payments |
+| Cash Reconciliation | Checking cash, reconciling revenue, and handing over revenue |
 
 ---
 
@@ -147,19 +147,19 @@ The analysis focuses on identifying:
 
 Understanding the responsibilities, interactions, and information dependencies among customers, management, service staff, kitchen staff, cashiers, suppliers, and supporting systems.
 
-See [`analysis/stakeholder-insights.md`](analysis/stakeholder-insights.md).
+[`analysis/stakeholder-insights.md`](analysis/stakeholder-insights.md).
 
 ### Pain Points
 
 Identifying process bottlenecks, unnecessary manual activities, information gaps, duplicated work, control weaknesses, and other operational issues observed or inferred from the current-state processes.
 
-See [`analysis/pain-points.md`](analysis/pain-points.md).
+[`analysis/pain-points.md`](analysis/pain-points.md).
 
 ### Improvement Opportunities
 
 Translating identified pain points into potential process improvement opportunities and defining areas where process standardization or system support could improve operational efficiency and control.
 
-See [`analysis/improvement-opportunities.md`](analysis/improvement-opportunities.md).
+[`analysis/improvement-opportunities.md`](analysis/improvement-opportunities.md).
 
 ---
 
@@ -194,17 +194,14 @@ The To-Be model focuses on demonstrating how the identified improvement opportun
 ## Tools & Techniques
 
 **Modeling**
+- draw.io
 - BPMN 2.0
-- Process Landscape
 
 **Analysis**
 - Business Process Analysis
 - Stakeholder Analysis
 - As-Is / To-Be Analysis
 - Process Improvement Analysis
-
-**Tools**
-- draw.io
 
 ---
 
