@@ -1,10 +1,9 @@
 # Pain Point Analysis
 
-> **Analysis basis:** Pain points below are derived from stakeholder context and the documented As-Is process models. They should not be interpreted as quantified operational issues unless supported by measured data.
-
+> Pain points below are derived from stakeholder context and the documented As-Is process models. 
 ---
 
-## PP-01 — Invoice Rework During Payment
+## 01. Invoice Rework During Payment
 
 ### Process Evidence
 
@@ -20,13 +19,9 @@ The payment process contains a rework loop caused by incorrect invoice informati
 - Increases cashier workload
 - Creates additional opportunities for repeated correction
 
-### Evidence Basis
-
-**Process-derived — High confidence**
-
 ---
 
-## PP-02 — Repeated Manual Verification
+## 02. Repeated Manual Verification
 
 ### Process Evidence
 
@@ -47,14 +42,10 @@ The same or related information must be checked at multiple stages before the pr
 - Additional operational effort
 - Greater dependency on staff accuracy
 - Higher risk of inconsistent information between process stages
-
-### Evidence Basis
-
-**Process-derived — High confidence**
-
+  
 ---
 
-## PP-03 — Repeated Processing for Additional Orders
+## 03. Repeated Processing for Additional Orders
 
 ### Process Evidence
 
@@ -70,13 +61,9 @@ Additional orders introduce a repeated processing cycle instead of extending the
 - More coordination between service staff and kitchen
 - Potential increase in order-processing time
 
-### Evidence Basis
-
-**Process-derived — High confidence**
-
 ---
 
-## PP-04 — Exception-Driven Process Loops
+## 04. Exception-Driven Process Loops
 
 ### Process Evidence
 
@@ -86,7 +73,7 @@ Multiple processes contain exception branches that require additional processing
 |---|---|
 | Reservation | No available table / customer cancellation |
 | Supplier Receiving | Quantity shortage / quality failure |
-| Customer Service | Out-of-stock item |
+| Customer Service | Out of stock item |
 | Delivery | Unsuccessful delivery |
 | Payment | Incorrect invoice |
 | Cash Reconciliation | Cash discrepancy |
@@ -101,51 +88,20 @@ Exception handling is distributed across multiple branches and often requires ad
 - Higher coordination effort
 - Increased operational complexity
 
-### Evidence Basis
-
-**Process-derived — High confidence**
-
----
-
-## PP-05 — Cross-Functional Information Handoffs
-
-### Process Evidence
-
-Core activities frequently move information across multiple participants.
-
-A typical order flow involves:
-
-**Customer → Service Staff → Restaurant System → Kitchen → Service Staff → Customer → Cashier**
-
-### Pain Point
-
-Operational progress depends on information being correctly transferred between multiple stakeholders.
-
-### Business Impact / Risk
-
-- Delays caused by incomplete or outdated information
-- Increased coordination effort
-- Downstream impact when an upstream handoff is incorrect
-
-### Evidence Basis
-
-**Process-derived — Medium confidence**
-
 ---
 
 ## Priority Summary
 
-| ID | Pain Point | Priority | Main Affected Area |
+| ID | Pain Point | Priority | Affected Area |
 |---|---|---|---|
 | PP-01 | Invoice rework | High | Payment |
 | PP-02 | Repeated verification | High | Reservation / Payment / Reconciliation |
 | PP-03 | Repeated additional-order processing | Medium | Customer Service / Kitchen |
 | PP-04 | Exception-driven loops | High | Cross-process |
-| PP-05 | Cross-functional handoffs | Medium | Cross-process |
 
 ---
 
-## BA Interpretation
+## Interpretation
 
 The most significant improvement themes are not isolated activities but recurring patterns across the operating model:
 
