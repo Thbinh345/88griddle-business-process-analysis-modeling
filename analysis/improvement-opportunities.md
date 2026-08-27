@@ -19,7 +19,7 @@ Improve the payment workflow so that the final order information is consolidated
 - Shorten the payment cycle
 - Improve billing accuracy
 
----
+
 
 ## 02. Improve Information Consistency Across Order & Payment
 
@@ -38,7 +38,7 @@ The restaurant system should act as the central reference point for current tran
 - Reduce dependency on manual handoffs
 - Support faster coordination between functions
 
----
+
 
 ## 03. Streamline Additional-Order Handling
 
@@ -56,7 +56,7 @@ The process should update the existing order and notify the relevant downstream 
 - Simplify service-to-kitchen coordination
 - Improve handling of additional orders
 
----
+
 
 ## 04. Standardize Exception Handling
 
@@ -85,7 +85,7 @@ Each exception should clearly identify:
 - Make operational responsibilities clearer
 - Support future system requirements
 
----
+
 
 ## 05. Strengthen Cash Reconciliation Control
 
