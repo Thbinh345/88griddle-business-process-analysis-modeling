@@ -93,10 +93,10 @@ Exception handling is distributed across multiple branches and often requires ad
 
 | ID | Pain Point | Priority | Affected Area |
 |---|---|---|---|
-| PP-01 | Invoice rework | High | Payment |
-| PP-02 | Repeated verification | High | Reservation / Payment / Reconciliation |
-| PP-03 | Repeated additional-order processing | Medium | Customer Service / Kitchen |
-| PP-04 | Exception-driven loops | High | Cross-process |
+| 01 | Invoice rework | High | Payment |
+| 02 | Repeated verification | High | Reservation / Payment / Reconciliation |
+| 03 | Repeated additional-order processing | Medium | Customer Service / Kitchen |
+| 04 | Exception-driven loops | High | Cross-process |
 
 ---
 
