@@ -2,24 +2,35 @@
 
 ## Overview
 
-The process analysis was developed from requirement-gathering with the restaurant's operational stakeholder and from analysis of the documented current-state workflows.
+The process analysis was developed based on requirement-gathering with the **Restaurant Manager** and subsequent analysis of the documented operational processes.
 
 The objective is to understand how responsibilities, information and decisions are distributed across the restaurant's operations.
 
 ---
 
-## Key Stakeholders
+## Key Stakeholders & Operational Roles
 
-| Stakeholder | Process Involvement | Primary Operational Concern |
+### Primary Stakeholder
+
+| Stakeholder | Process Involvement | Role in Analysis |
 |---|---|---|
-| Customer | Reservation, Customer Service, Delivery, Payment | Order accuracy, table availability, service and payment experience |
-| Restaurant Manager | Reservation, Supplier Receiving, Cash Reconciliation | Operational control, exception handling and status visibility |
-| Service Staff | Customer Service, Delivery, Reservation Support | Accurate order handling and coordination with other functions |
-| Kitchen Staff | Supplier Receiving, Kitchen Preparation | Correct order information, ingredient availability and preparation accuracy |
-| Cashier | Payment, Cash Reconciliation | Billing accuracy, payment processing and financial reconciliation |
-| Supplier | Supplier Receiving | Correct quantity and quality of delivered goods |
-| Restaurant System | Reservation, Customer Service, Delivery, Payment | Recording, displaying and updating operational information |
+| **Restaurant Manager** | Reservation, Supplier Receiving, Cash Reconciliation | Primary stakeholder interviewed for business-process information and operational requirements |
 
+### Operational Roles Identified in the Process Models
+
+| Role | Process Involvement |
+|---|---|
+| Customer | Reservation, Customer Service, Delivery, Payment |
+| Service Staff | Customer Service, Delivery, Reservation Support |
+| Kitchen Staff | Supplier Receiving, Kitchen Preparation |
+| Cashier | Payment, Cash Reconciliation |
+| Supplier | Supplier Receiving |
+
+### System
+
+| System | Process Involvement |
+|---|---|
+| Restaurant System | Reservation, Customer Service, Delivery, Payment |
 ---
 
 ## Process-Level Insights
