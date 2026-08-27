@@ -19,7 +19,6 @@ The payment process contains a rework loop caused by incorrect invoice informati
 - Increases cashier workload
 - Creates additional opportunities for repeated correction
 
----
 
 ## 02. Repeated Manual Verification
 
@@ -43,7 +42,7 @@ The same or related information must be checked at multiple stages before the pr
 - Greater dependency on staff accuracy
 - Higher risk of inconsistent information between process stages
   
----
+
 
 ## 03. Repeated Processing for Additional Orders
 
@@ -61,7 +60,7 @@ Additional orders introduce a repeated processing cycle instead of extending the
 - More coordination between service staff and kitchen
 - Potential increase in order-processing time
 
----
+
 
 ## 04. Exception-Driven Process Loops
 
