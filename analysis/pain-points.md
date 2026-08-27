@@ -91,7 +91,7 @@ Exception handling is distributed across multiple branches and often requires ad
 
 ## Priority Summary
 
-| ID | Pain Point | Priority | Affected Area |
+| ID | Pain Point | Priority | Process Impact |
 |---|---|---|---|
 | 01 | Invoice rework | High | Payment |
 | 02 | Repeated verification | High | Reservation / Payment / Reconciliation |
