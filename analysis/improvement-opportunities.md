@@ -19,11 +19,28 @@ Improve the payment workflow so that the final order information is consolidated
 - Shorten the payment cycle
 - Improve billing accuracy
 
+## 02. Automate Deposit Status Verification
 
+**Related Pain Point:** 02
 
-## 02. Improve Information Consistency Across Order & Payment
+### Opportunity
 
-**Related Pain Points:** 02
+Move deposit-status verification from a manual cashier activity to the restaurant system.
+
+The system should retrieve the customer's reservation and deposit status from the recorded reservation information and automatically determine whether a deposit has been made.
+
+If a deposit exists, the system applies the deposit deduction to the payment amount; otherwise, the full invoice amount is used.
+
+### Expected Outcome
+
+- Remove an unnecessary manual verification step
+- Reduce cashier workload
+- Improve consistency between reservation and payment information
+- Support faster payment processing
+
+## 03. Improve Information Consistency Across Order & Payment
+
+**Related Pain Points:** 03
 
 ### Opportunity
 
@@ -40,9 +57,9 @@ The restaurant system should act as the central reference point for current tran
 
 
 
-## 03. Streamline Additional-Order Handling
+## 04. Streamline Additional-Order Handling
 
-**Related Pain Point:** 03
+**Related Pain Point:** 04
 
 ### Opportunity
 
@@ -58,9 +75,9 @@ The process should update the existing order and notify the relevant downstream 
 
 
 
-## 04. Standardize Exception Handling
+## 05. Standardize Exception Handling
 
-**Related Pain Point:** 04
+**Related Pain Point:** 05
 
 ### Opportunity
 
@@ -87,9 +104,9 @@ Each exception should clearly identify:
 
 
 
-## 05. Strengthen Cash Reconciliation Control
+## 06. Strengthen Cash Reconciliation Control
 
-**Related Pain Point:** 02
+**Related Pain Point:** 03
 
 ### Opportunity
 
@@ -107,13 +124,14 @@ Structure the end-of-shift reconciliation process around a clear control sequenc
 
 ## Improvement Priority Matrix
 
-| Opportunity | Business Value | Process Impact | Priority |
-|---|---|---|---|
-| 01. Reduce Invoice Rework | High | Payment | High |
-| 02. Improve Information Consistency | High | Cross-process | High |
-| 03. Streamline Additional Orders | Medium | Service / Kitchen | Medium |
-| 04.  Standardize Exception Handling | High | Cross-process | High |
-| 05.  Strengthen Cash Reconciliation | High | Finance / Control | High |
+| Opportunity | Business Value | Process Impact |
+|---|---|---|
+| 01. Reduce Invoice Rework | High | Payment |
+| 02. Deposit Status Verification | High | Payment | 
+| 03. Improve Information Consistency | High | Cross-process |
+| 04. Streamline Additional Orders | Medium | Service / Kitchen | 
+| 05. Standardize Exception Handling | High | Cross-process | 
+| 06. Strengthen Cash Reconciliation | High | Finance / Control | 
 
 ---
 
