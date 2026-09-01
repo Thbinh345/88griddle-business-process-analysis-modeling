@@ -131,7 +131,7 @@ Structure the end-of-shift reconciliation process around a clear control sequenc
 | 03. Improve Information Consistency | Cross-process | High | 
 | 04. Streamline Additional Orders | Service / Kitchen | Medium | 
 | 05. Standardize Exception Handling | Cross-process | High | 
-| 06. Strengthen Cash Reconciliation | Finance / Control | High | 
+| 06. Strengthen Cash Reconciliation | Cash reconciliation | High | 
 
 ---
 
