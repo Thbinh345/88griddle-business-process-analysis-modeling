@@ -19,8 +19,26 @@ The payment process contains a rework loop caused by incorrect invoice informati
 - Increases cashier workload
 - Creates additional opportunities for repeated correction
 
+## 02. Manual Deposit Verification During Payment
 
-## 02. Repeated Manual Verification
+### Process Evidence
+
+The payment process requires the cashier to manually check whether the customer has previously paid a deposit before determining the final amount.
+
+The As-Is process separates reservation information and deposit verification into distinct activities, even though reservation and customer information are already maintained by the restaurant system.
+
+### Pain Point
+
+Deposit status is manually verified by the cashier instead of being directly retrieved from the restaurant system during payment processing.
+
+### Business Impact / Risk
+
+- Adds an additional manual verification step
+- Increases cashier workload
+- Creates dependency on the accuracy and availability of reservation/deposit information
+- May slow down payment processing
+
+## 03. Repeated Manual Verification
 
 ### Process Evidence
 
@@ -44,7 +62,7 @@ The same or related information must be checked at multiple stages before the pr
   
 
 
-## 03. Repeated Processing for Additional Orders
+## 04. Repeated Processing for Additional Orders
 
 ### Process Evidence
 
@@ -62,7 +80,7 @@ Additional orders introduce a repeated processing cycle instead of extending the
 
 
 
-## 04. Exception-Driven Process Loops
+## 05. Exception-Driven Process Loops
 
 ### Process Evidence
 
@@ -94,9 +112,10 @@ Exception handling is distributed across multiple branches and often requires ad
 | ID | Pain Point | Priority | Process Impact |
 |---|---|---|---|
 | 01 | Invoice rework | High | Payment |
-| 02 | Repeated verification | High | Reservation / Payment / Reconciliation |
-| 03 | Repeated additional-order processing | Medium | Customer Service / Kitchen |
-| 04 | Exception-driven loops | High | Cross-process |
+| 02 | Deposit Verification | High | Payment |
+| 03 | Repeated verification | High | Reservation / Payment / Reconciliation |
+| 04 | Repeated additional-order processing | Medium | Customer Service / Kitchen |
+| 05 | Exception-driven loops | High | Cross-process |
 
 ---
 
