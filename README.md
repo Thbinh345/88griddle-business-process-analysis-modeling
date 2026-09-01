@@ -219,16 +219,17 @@ The To-Be model focuses on demonstrating how the identified improvement opportun
 │   ├── process-landscape.png
 │   │
 │   ├── as-is/
-│   │   ├── reservation-bpmn.png
-│   │   ├── supplier-receiving-bpmn.png
-│   │   ├── kitchen-preparation-bpmn.png
-│   │   ├── serving-bpmn.png
-│   │   ├── delivery-bpmn.png
-│   │   ├── payment-bpmn.png
-│   │   └── cash-reconciliation-bpmn.png
+│   │   ├── all-processes-bpmn.pdf
+│   │   ├── reservation-bpmn.pdf
+│   │   ├── supplier-receiving-bpmn.pdf
+│   │   ├── kitchen-preparation-bpmn.pdf
+│   │   ├── serving-bpmn.pdf
+│   │   ├── delivery-bpmn.pdf
+│   │   ├── payment-bpmn.pdf
+│   │   └── cash-reconciliation-bpmn.pdf
 │   │
 │   └── to-be/
-│       └── payment-to-be.png
+│       └── payment-to-be.pdf
 │
 └── analysis/
     ├── stakeholder-insights.md
