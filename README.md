@@ -157,7 +157,7 @@ The To-Be model demonstrates how business process improvements can be translated
 
 ### Payment Process — To-Be
 
-[View Payment To-Be Process (PDF)](process-modeling/to-be/payment(to-be).pdf.pdf)
+[View Payment To-Be Process (PDF)](process-modeling/to-be/payment(to-be).pdf)
 
 The To-Be model focuses on demonstrating how the identified improvement opportunities can be reflected directly in the future-state business process.
 
