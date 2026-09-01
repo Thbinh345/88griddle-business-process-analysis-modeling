@@ -124,14 +124,14 @@ Structure the end-of-shift reconciliation process around a clear control sequenc
 
 ## Improvement Priority Matrix
 
-| Opportunity | Business Value | Process Impact |
+| Opportunity | Process Impact | Business Value | 
 |---|---|---|
-| 01. Reduce Invoice Rework | High | Payment |
-| 02. Deposit Status Verification | High | Payment | 
-| 03. Improve Information Consistency | High | Cross-process |
-| 04. Streamline Additional Orders | Medium | Service / Kitchen | 
-| 05. Standardize Exception Handling | High | Cross-process | 
-| 06. Strengthen Cash Reconciliation | High | Finance / Control | 
+| 01. Reduce Invoice Rework | Payment | High | 
+| 02. Deposit Status Verification | Payment | High | 
+| 03. Improve Information Consistency | Cross-process | High | 
+| 04. Streamline Additional Orders | Service / Kitchen | Medium | 
+| 05. Standardize Exception Handling | Cross-process | High | 
+| 06. Strengthen Cash Reconciliation | Finance / Control | High | 
 
 ---
 
