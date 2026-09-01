@@ -91,21 +91,15 @@ The reservation process begins when a customer contacts the restaurant to reques
 
 The process handles different scenarios including available tables, unavailable tables, waiting lists, deposits, reservation confirmation, and reservation cancellation.
 
-![Reservation BPMN](process-modeling/as-is/reservation-bpmn.png)
-
 ### 2. Supplier Receiving
 
 This process models how the restaurant receives goods from suppliers and verifies both quantity and quality.
 
 Exceptions such as insufficient quantity or unacceptable quality are handled through additional supply requests or return requests.
 
-![Supplier Receiving BPMN](process-modeling/as-is/supplier-receiving-bpmn.png)
-
 ### 3. Kitchen Preparation
 
 The kitchen receives order information from the system, prepares the dishes, and determines whether the order is for dine-in or delivery/takeaway before presenting or packaging the completed dishes.
-
-![Kitchen Preparation BPMN](process-modeling/as-is/kitchen-preparation-bpmn.png)
 
 ### 4. Customer Service
 
@@ -113,13 +107,9 @@ The service process covers customer seating, menu presentation, order taking, or
 
 The process also includes exception handling when a requested menu item is unavailable.
 
-![Customer Service BPMN](process-modeling/as-is/serving-bpmn.png)
-
 ### 5. Delivery
 
 The delivery process covers online orders from order preparation and packaging to customer contact, delivery, payment verification, successful completion, or order return when delivery is unsuccessful.
-
-![Delivery BPMN](process-modeling/as-is/delivery-bpmn.png)
 
 ### 6. Payment
 
@@ -127,13 +117,9 @@ The payment process covers bill verification, deposit deduction, payment method 
 
 Supported payment methods include cash, bank transfer, and card payment.
 
-![Payment BPMN](process-modeling/as-is/payment-bpmn.png)
-
 ### 7. Cash Reconciliation
 
 The cash reconciliation process covers end-of-shift cash checking, reconciliation between actual cash and recorded transactions, handling cash shortages, and revenue handover to management.
-
-![Cash Reconciliation BPMN](process-modeling/as-is/cash-reconciliation-bpmn.png)
 
 ---
 
@@ -171,7 +157,7 @@ The To-Be model demonstrates how business process improvements can be translated
 
 ### Payment Process — To-Be
 
-![Payment To-Be Process](process-modeling/to-be/payment-to-be.png)
+![Payment To-Be Process](process-modeling/to-be/payment-to-be.pdf)
 
 The To-Be model focuses on demonstrating how the identified improvement opportunities can be reflected directly in the future-state business process.
 
